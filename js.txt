@@ -1,0 +1,107 @@
+Separation of Concerns
+
+what is Separation
+- js is about behaviour
+- script tag
+
+
+Variables
+-We use a variable to store data temporarily
+- by default undefined
+- var 
+- let
+
+
+rules of variables 
+-Cannot be a reserved keyword
+-Should be meaningful
+-Cannot start with a number (1name)
+-Cannot contain a space or hyphen (-)
+-Are case-sensitive
+
+
+constant
+
+primitive data types
+-String
+-Number
+-boolean
+-undefined
+-null
+
+ string 
+- sequence of character
+- single or double quotes
+
+refrence types / Dynamic Types
+-Object
+-Array
+-Function
+
+working with objects
+-Dot Notations
+-Bracket Notations
+
+
+conditional operators / Comparison = Comparison operators are used in logical statements to determine equality or difference between variables or values.
+- == (equal to)
+- === ( equal value and equal type )
+- !=  (not equal)
+- !== ( not equal value and not equal type )
+- > ( greater than )
+- <	( less than )
+- >= ( greater than or equal to )
+- <=	( less than or equal to )
+
+
+logical operators = Logical operators are used to determine the logic between variables or values.
+- &&	(end)
+- || (or)	
+- ! ( not )
+
+array methods in js
+pop - removes the last element from the array
+push - adds new element to the array at end
+shift - removes the first element from the array
+unshift - adds new element to the array at start
+length - length of array
+indexof - get index
+slice
+
+
+dates in js
+- new Date()
+getTime()
+getFullYear()
+getDay()
+getMinutes()
+getHours()
+
+loops in js
+- iterations
+for
+foreach
+while
+do while
+
+break and continue in loops
+break - statement for "jumps out " of the loop
+continue - statement for "jumps over " one iteration i the loop
+
+
+Dom
+- get elements
+- manulation of dom
+
+
+events
+
+Json
+
+localstorage
+
+map/filter/reduce
+
+
+
+

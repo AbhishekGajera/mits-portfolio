@@ -1,0 +1,398 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0px;
+}
+
+
+/* common css start */
+.bg-black {
+    background-color: #000;
+}
+
+.color-white {
+    color: #fff;
+}
+
+.row {
+    display: flex;
+}
+
+.container {
+    width: 100%;
+    padding: 32px 16px;
+}
+
+.main {
+    margin-left: 120px;
+}
+
+.content-wrapper {
+    width: 1000px;
+}
+/* common css end */
+
+
+
+
+/* sidebar start */
+
+.sidebar {
+    width: 120px;
+    background-color: #222;
+    height: 100%;
+    position: fixed !important;
+}
+
+.sidebar .sidebar-img {
+    width: 100%;
+}
+
+.sidebar .sidebar-item {
+    position: relative;
+    min-width: 100%;
+    padding: 24px 0px 12px;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.sidebar .sidebar-item:hover {
+    color: #000 !important;
+    background-color: #ccc !important;
+}
+
+.sidebar .sidebar-item:hover i {
+    color: #000 !important;
+    background-color: #ccc !important;
+}
+
+.sidebar-item.active {
+    background-color: #000;
+    color: #fff !important;
+}
+
+
+.sidebar .sidebar-item i{
+    font-size: 24px;
+}
+
+/* sidebar end */
+
+
+/* main style start */
+
+.main {
+    color: #fff;
+}
+
+.heading {
+    width: 100%;
+    text-align: center;
+}
+
+
+.heading h1 {
+    font-size: 64px;
+    margin: 10px 0px;
+    color: #fff !important;
+
+}
+
+.banner-img {
+    width: 100%;
+}
+
+
+/* about start */
+
+.about-section {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 64px;
+    color: #757575;
+    text-align: justify;
+}
+
+.about-section h2{
+    font-size: 30px;
+    color: #fff !important;
+}
+
+.about-section hr{
+    width: 200px;
+    float: left;
+}
+
+.skill-heading {
+    font-size: 24px;
+    color: #f1f1f1 !important;
+}
+
+.skill-title {
+    letter-spacing: 4px;
+}
+
+.bar-white {
+    color: #000 !important;
+    background-color: #fff !important;
+}
+
+.bar-grey {
+    color: #fff !important;
+    background-color: #616161 !important;
+
+}
+
+.photography {
+    height: 28px;
+    width: 95%;
+}
+
+.webd {
+    height: 28px;
+    width: 85%;
+}
+
+.photoshop {
+    height: 28px;
+    width: 80%;
+}
+
+.partners {
+    margin: 16px 0px;
+    background-color: #fff !important;
+    display: flex;
+    padding: 16px 0px;
+    text-align: center;
+}
+
+.parner-section {
+    width: 25%;
+    margin: 16px 0px;
+}
+
+.parner-section span {
+    font-size: 24px;
+}
+
+.download-btn {
+    color: #000;
+    background-color: #f1f1f1;
+    padding: 12px 24px;
+    margin: 16px 0px;
+    border: none;
+    cursor: pointer;
+}
+
+.download-btn:hover {
+    background-color: #ccc !important;
+}
+/* about end */
+
+/* price  start */
+
+.price-section {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.table-heading {
+    font-size: 24px;
+    color: #f1f1f1 !important;
+}
+
+.price-row {
+    display: flex;
+    width: 100%;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.price-table {
+    opacity: 0.6;
+    padding-right: 16px;
+
+}
+
+.price-table:hover {
+    opacity: 1;
+}
+
+.price-table ul li {
+    list-style: none;
+}
+
+.price-heading {
+    color: #fff;
+    font-size: 24px;
+    padding: 32px 16px;
+    background-color: #616161;
+}
+
+.table-cells {
+    padding: 16px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    color: #000;
+}
+
+.table-button {
+    padding: 24px 0px;
+    background-color: #f1f1f1;
+}
+
+.table-button button {
+    background-color: #fff;
+    color: #000;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.table-button button:hover {
+    color: #fff;
+    background-color: 000;
+}
+
+/* price end */
+
+/* reputaion start */
+
+.reputation-section {
+    margin-left: auto;
+    margin-right: auto;
+    color: #757575;
+}
+
+.reputation-section h3 {
+    padding: 24px 0px;
+    margin: 10px 0px;
+    color: #f1f1f1;
+    font-size: 24px;
+}
+
+.reputation-img {
+    width: 80px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 16px;
+}
+
+/* reputaion end */
+
+/* photos start */
+
+.photos-section {
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.photos-section img {
+    width: 100%;
+}
+
+.img-section {
+    padding: 0px 8px;
+}
+
+.img-section img {
+    margin-bottom: 12px;
+}
+
+/* photos  end */
+
+/* conatact  start  */
+
+.content-section {
+    margin-left: auto;
+    margin-right:  auto;
+    padding: 64px 0px;
+    color: #757575;
+}
+
+.content-section h2 {
+    color: #fff;
+}
+
+.content-section i {
+    font-size: 28px;
+    color: #fff;
+    margin-right: 16px;
+}
+
+.contact-details p{
+    margin: 25px 0px;
+    line-height: 40px;
+}
+
+.input-text {
+    padding: 16px 8px;
+    width: 100%;
+    border: none;
+    border: 1px solid #ccc;
+    font: inherit;
+}
+
+.contact-submit {
+    padding: 12px 24px;
+    border: none;
+    color: #000 !important;
+    cursor: pointer;
+}
+
+.contact-submit:hover {
+    background-color: #ccc !important;
+    color: #000 !important;
+}
+
+.contact-submit i{
+    color: #000 !important;
+    font-size: 16px;
+}
+
+/* contact  end */
+
+
+/* footer start */
+
+.social-section{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0px;
+}
+
+.social-section i,
+.social-section p {
+    color: #757575;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.footer-link {
+    color: #757575;
+    text-decoration: underline;
+}
+
+.footer-link:hover {
+    color: #4caf50;
+}
+
+/* footer end */
+
+/* main style end */
